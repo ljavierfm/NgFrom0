@@ -7,9 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class EjdirectivagifComponent implements OnInit {
   nombre:string;
+  capital:string;
   constructor() { }
 
   ngOnInit() {
+  }
+
+  setResultado(){
+    return this.capital==='Madrid'?true:false;
   }
 
 }

@@ -13,6 +13,13 @@ import { EjpropertybindingComponent } from './ejpropertybinding/ejpropertybindin
 import { EventbindingComponent } from './eventbinding/eventbinding.component';
 import { Ej2waybindingComponent } from './ej2waybinding/ej2waybinding.component';
 import { EjdirectivagifComponent } from './ejdirectivagif/ejdirectivagif.component';
+import { EjdirectivastyleComponent } from './ejdirectivastyle/ejdirectivastyle.component';
+import { EjdirectivangclassComponent } from './ejdirectivangclass/ejdirectivangclass.component';
+import { EjdirectivangforComponent } from './ejdirectivangfor/ejdirectivangfor.component';
+import { ArrayobjetosComponent } from './arrayobjetos/arrayobjetos.component';
+import { EjdirectivangswitchComponent } from './ejdirectivangswitch/ejdirectivangswitch.component';
+import { MenuitemDirective } from './menuitem.directive';
+import { EjmidirectivaComponent } from './ejmidirectiva/ejmidirectiva.component';
 
 
 @NgModule({
@@ -25,7 +32,14 @@ import { EjdirectivagifComponent } from './ejdirectivagif/ejdirectivagif.compone
     EjpropertybindingComponent,
     EventbindingComponent,
     Ej2waybindingComponent,
-    EjdirectivagifComponent
+    EjdirectivagifComponent,
+    EjdirectivastyleComponent,
+    EjdirectivangclassComponent,
+    EjdirectivangforComponent,
+    ArrayobjetosComponent,
+    EjdirectivangswitchComponent,
+    MenuitemDirective,
+    EjmidirectivaComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,8 @@
+<h4>Introduzca la puntuación del alumno:</h4>
+<input type="number" name="" id=""
+class="form-control"
+[(ngModel)]="puntuacion">
+<hr>
+<h4 style="display:inline-block;">Puntuación obtenida: &nbsp;</h4>
+<h4 style="display:inline-block;"
+[ngStyle]="{'color': setColor(),'font-size':'40px'}">{{puntuacion}}</h4>
