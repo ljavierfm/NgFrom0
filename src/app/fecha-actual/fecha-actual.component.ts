@@ -6,4 +6,5 @@ import { Component } from '@angular/core';
 })
 export class FechaActualComponent  {
   hoy:any=new Date();
+  dolareuro:number=0.94;
 }

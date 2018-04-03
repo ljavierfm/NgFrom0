@@ -1,0 +1,22 @@
+<h4>{{aviso}}</h4>
+<ul *ngFor="let aviso of avisos">
+    <li>{{aviso.texto}}</li>
+</ul>
+
+<div class="container" *ngFor="let aviso of avisos">
+    <div class="hijo">
+        <h4 [ngClass]="{'tachado':aviso.leido==true}" style="display:inline">{{aviso.texto}}</h4>
+
+        <button class="btn btn-success float-md-right"
+        *ngIf="!aviso.leido;desmarcar"
+        (click)="marcar(aviso)">
+        Marcar como leído</button>
+
+        
+
+        <button class="btn btn-danger float-md-right"
+        *ngIf="aviso.leido"
+        (click)="marcar(aviso)">Desmarcar como leído</button>
+    </div>
+</div>
+
